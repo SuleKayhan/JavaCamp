@@ -1,0 +1,11 @@
+
+public class Veriables {
+
+	public static void main(String[] args) {
+		// int - integer - tamsayı
+		int ogrenciSayisi = 10;
+		System.out.println("Öğrenci sayım : "+ ogrenciSayisi);
+
+	}
+
+}

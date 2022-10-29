@@ -1,0 +1,11 @@
+package oop1;
+//PascalCase - İsimlendirme
+public class Product {
+	String name;
+	// camelCase-isimlendirme
+	double unitPrice; // birim fiyatı
+	double discount; // indirim oranı
+	String imageUrl; // ürünü görsel resmi
+	int unitInStock; // ürünün stok durumu
+	
+}

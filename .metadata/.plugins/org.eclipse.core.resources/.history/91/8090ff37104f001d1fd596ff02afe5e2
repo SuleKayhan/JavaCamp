@@ -1,0 +1,18 @@
+
+public class miniProjeAsalSayi {
+
+	public static void main(String[] args) {
+		int number = 25;
+		int remainder ; // remainder = kalan demek
+		int i;
+		for (i=2;i<= number;i++)
+		{
+			remainder = number % i ;
+			if(remainder == 0)
+				System.out.println("kalansız");
+			System.out.println(remainder);
+		}
+
+	}
+
+}

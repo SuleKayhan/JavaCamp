@@ -1,0 +1,6 @@
+package oop1;
+//extends genişletmek // Bireysel müşteri bir müşteridir.
+public class IndividualCustomer extends Customer{
+	
+
+}

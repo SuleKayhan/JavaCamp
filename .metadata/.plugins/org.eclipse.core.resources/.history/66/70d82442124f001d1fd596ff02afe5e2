@@ -1,0 +1,19 @@
+
+public class miniProjeAsalSayi {
+
+	public static void main(String[] args) {
+		int number = 23;
+		int remainder ; // remainder = kalan demek
+		int i;
+		boolean isPrime = true; // Prime = asal demek. Asal mı = evet.
+		
+		for (i=2; i < number; i++)
+		{
+			int deger = number % i;
+			if(deger== 0)
+				System.out.println("asal değil");
+		}
+
+	}
+
+}
